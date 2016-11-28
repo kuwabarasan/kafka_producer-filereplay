@@ -63,7 +63,7 @@
                                         implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>hiro.tools.kafka.getOffset</mainClass>
+                                    <mainClass>hiro.kafka.clients.FileReplayProducer</mainClass>
                                 </transformer>
                             </transformers>
                             <filters>
