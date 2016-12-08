@@ -1,0 +1,2 @@
+2016-11-04 01:36:08,215 WARN  [kafka-producer-network-thread | producer-1] clients.NetworkClient: Error while fetching metadata with correlation id 24868 : {replaytest=LEADER_NOT_AVAILABLE}
+2016-11-04 01:36:08,446 WARN  [kafka-producer-network-thread | producer-1] clients.NetworkClient: Error while fetching metadata with correlation id 24869 : {replaytest=LEADER_NOT_AVAILABLE}

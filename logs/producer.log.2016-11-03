@@ -1,0 +1,247 @@
+2016-11-03 01:58:57,695 INFO  [main] clients.FileReplayProducer: Loading producer.properties file
+2016-11-03 01:58:57,697 INFO  [main] clients.FileReplayProducer: Loading app.properties file
+2016-11-03 01:58:57,697 INFO  [main] clients.FileReplayProducer: Initializing application variables
+2016-11-03 01:58:57,769 INFO  [main] producer.ProducerConfig: ProducerConfig values: 
+	compression.type = none
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	metadata.fetch.timeout.ms = 60000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [test1:6667]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	max.block.ms = 60000
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	ssl.protocol = TLS
+	request.timeout.ms = 30000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	acks = all
+	batch.size = 16384
+	ssl.keystore.location = null
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXTSASL
+	retries = 0
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	send.buffer.bytes = 131072
+	linger.ms = 1
+
+2016-11-03 01:58:57,991 INFO  [main] kerberos.Login: Successfully logged in.
+2016-11-03 01:58:58,002 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT refresh thread started.
+2016-11-03 01:58:58,011 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT valid starting at: Thu Nov 03 01:56:20 PDT 2016
+2016-11-03 01:58:58,011 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT expires: Fri Nov 04 01:56:20 PDT 2016
+2016-11-03 01:58:58,011 ERROR [kafka-kerberos-refresh-thread] kerberos.Login: The TGT cannot be renewed beyond the next expiry date: Fri Nov 04 01:56:20 PDT 2016.This process will not be able to authenticate new SASL connections after that time (for example, it will not be able to authenticate a new connection with a Kafka Broker).  Ask your system administrator to either increase the 'renew until' time by doing : 'modprinc -maxrenewlife null ' within kadmin, or instead, to generate a keytab for null. Because the TGT's expiry cannot be further extended by refreshing, exiting refresh thread now.
+2016-11-03 01:58:58,036 INFO  [main] utils.AppInfoParser: Kafka version : 0.9.0.2.4.3.1-2
+2016-11-03 01:58:58,036 INFO  [main] utils.AppInfoParser: Kafka commitId : unknown
+2016-11-03 01:59:04,548 INFO  [main] producer.KafkaProducer: Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2016-11-03 01:59:04,557 INFO  [Thread-0] clients.FileReplayProducer: Shutting down...
+2016-11-03 01:59:04,557 INFO  [Thread-0] clients.FileReplayProducer: Removing PID file...
+2016-11-03 01:59:04,557 INFO  [Thread-0] clients.FileReplayProducer: Exiting
+2016-11-03 01:59:19,770 INFO  [main] clients.FileReplayProducer: Loading producer.properties file
+2016-11-03 01:59:19,771 INFO  [main] clients.FileReplayProducer: Loading app.properties file
+2016-11-03 01:59:19,771 INFO  [main] clients.FileReplayProducer: Initializing application variables
+2016-11-03 01:59:19,973 INFO  [main] producer.ProducerConfig: ProducerConfig values: 
+	compression.type = none
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	metadata.fetch.timeout.ms = 60000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [test1:6667]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	max.block.ms = 60000
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	ssl.protocol = TLS
+	request.timeout.ms = 30000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	acks = all
+	batch.size = 16384
+	ssl.keystore.location = null
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXTSASL
+	retries = 0
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	send.buffer.bytes = 131072
+	linger.ms = 1
+
+2016-11-03 01:59:20,972 INFO  [main] kerberos.Login: Successfully logged in.
+2016-11-03 01:59:21,011 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT refresh thread started.
+2016-11-03 01:59:21,017 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT valid starting at: Thu Nov 03 01:56:20 PDT 2016
+2016-11-03 01:59:21,017 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT expires: Fri Nov 04 01:56:20 PDT 2016
+2016-11-03 01:59:21,017 ERROR [kafka-kerberos-refresh-thread] kerberos.Login: The TGT cannot be renewed beyond the next expiry date: Fri Nov 04 01:56:20 PDT 2016.This process will not be able to authenticate new SASL connections after that time (for example, it will not be able to authenticate a new connection with a Kafka Broker).  Ask your system administrator to either increase the 'renew until' time by doing : 'modprinc -maxrenewlife null ' within kadmin, or instead, to generate a keytab for null. Because the TGT's expiry cannot be further extended by refreshing, exiting refresh thread now.
+2016-11-03 01:59:21,131 INFO  [main] utils.AppInfoParser: Kafka version : 0.9.0.2.4.3.1-2
+2016-11-03 01:59:21,131 INFO  [main] utils.AppInfoParser: Kafka commitId : unknown
+2016-11-03 01:59:28,681 INFO  [main] producer.KafkaProducer: Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2016-11-03 01:59:28,688 INFO  [Thread-0] clients.FileReplayProducer: Shutting down...
+2016-11-03 01:59:28,688 INFO  [Thread-0] clients.FileReplayProducer: Removing PID file...
+2016-11-03 01:59:28,688 INFO  [Thread-0] clients.FileReplayProducer: Exiting
+2016-11-03 02:00:31,397 INFO  [main] clients.FileReplayProducer: Loading producer.properties file
+2016-11-03 02:00:31,397 INFO  [main] clients.FileReplayProducer: Loading app.properties file
+2016-11-03 02:00:31,397 INFO  [main] clients.FileReplayProducer: Initializing application variables
+2016-11-03 02:00:31,441 INFO  [main] producer.ProducerConfig: ProducerConfig values: 
+	compression.type = none
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	metadata.fetch.timeout.ms = 60000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [test1:6667]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	max.block.ms = 60000
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	ssl.protocol = TLS
+	request.timeout.ms = 30000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	acks = all
+	batch.size = 16384
+	ssl.keystore.location = null
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXTSASL
+	retries = 0
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	send.buffer.bytes = 131072
+	linger.ms = 1
+
+2016-11-03 02:00:31,655 INFO  [main] kerberos.Login: Successfully logged in.
+2016-11-03 02:00:31,669 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT refresh thread started.
+2016-11-03 02:00:31,672 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT valid starting at: Thu Nov 03 01:56:20 PDT 2016
+2016-11-03 02:00:31,673 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT expires: Fri Nov 04 01:56:20 PDT 2016
+2016-11-03 02:00:31,673 ERROR [kafka-kerberos-refresh-thread] kerberos.Login: The TGT cannot be renewed beyond the next expiry date: Fri Nov 04 01:56:20 PDT 2016.This process will not be able to authenticate new SASL connections after that time (for example, it will not be able to authenticate a new connection with a Kafka Broker).  Ask your system administrator to either increase the 'renew until' time by doing : 'modprinc -maxrenewlife null ' within kadmin, or instead, to generate a keytab for null. Because the TGT's expiry cannot be further extended by refreshing, exiting refresh thread now.
+2016-11-03 02:00:31,691 INFO  [main] utils.AppInfoParser: Kafka version : 0.9.0.2.4.3.1-2
+2016-11-03 02:00:31,691 INFO  [main] utils.AppInfoParser: Kafka commitId : unknown
+2016-11-03 02:56:37,064 INFO  [Thread-0] clients.FileReplayProducer: Shutting down...
+2016-11-03 02:56:37,093 INFO  [Thread-0] clients.FileReplayProducer: Removing PID file...
+2016-11-03 02:56:37,095 INFO  [Thread-0] clients.FileReplayProducer: Exiting
+2016-11-03 02:59:59,594 INFO  [main] clients.FileReplayProducer: Loading producer.properties file
+2016-11-03 02:59:59,595 INFO  [main] clients.FileReplayProducer: Loading app.properties file
+2016-11-03 02:59:59,596 INFO  [main] clients.FileReplayProducer: Initializing application variables
+2016-11-03 02:59:59,665 INFO  [main] producer.ProducerConfig: ProducerConfig values: 
+	compression.type = none
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	metadata.fetch.timeout.ms = 60000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [test1:6667]
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.keystore.type = JKS
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	max.block.ms = 60000
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.truststore.password = null
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	ssl.protocol = TLS
+	request.timeout.ms = 30000
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	acks = all
+	batch.size = 16384
+	ssl.keystore.location = null
+	receive.buffer.bytes = 32768
+	ssl.cipher.suites = null
+	ssl.truststore.type = JKS
+	security.protocol = PLAINTEXTSASL
+	retries = 0
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	send.buffer.bytes = 131072
+	linger.ms = 1
+
+2016-11-03 02:59:59,901 INFO  [main] kerberos.Login: Successfully logged in.
+2016-11-03 02:59:59,914 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT refresh thread started.
+2016-11-03 02:59:59,925 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT valid starting at: Thu Nov 03 01:56:20 PDT 2016
+2016-11-03 02:59:59,925 INFO  [kafka-kerberos-refresh-thread] kerberos.Login: TGT expires: Fri Nov 04 01:56:20 PDT 2016
+2016-11-03 02:59:59,925 ERROR [kafka-kerberos-refresh-thread] kerberos.Login: The TGT cannot be renewed beyond the next expiry date: Fri Nov 04 01:56:20 PDT 2016.This process will not be able to authenticate new SASL connections after that time (for example, it will not be able to authenticate a new connection with a Kafka Broker).  Ask your system administrator to either increase the 'renew until' time by doing : 'modprinc -maxrenewlife null ' within kadmin, or instead, to generate a keytab for null. Because the TGT's expiry cannot be further extended by refreshing, exiting refresh thread now.
+2016-11-03 02:59:59,940 INFO  [main] utils.AppInfoParser: Kafka version : 0.9.0.2.4.3.1-2
+2016-11-03 02:59:59,940 INFO  [main] utils.AppInfoParser: Kafka commitId : unknown
