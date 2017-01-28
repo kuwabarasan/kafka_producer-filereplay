@@ -1,4 +1,4 @@
-# kafka_producer-filereplay
+# Kafka Producer - File replay
 
 Kafka producer implementation (new producer) which recursively replays files within an input directory provided as an argument.
 
